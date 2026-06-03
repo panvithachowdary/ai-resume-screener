@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&display=swap");
+
+:root{
+  --ivory:#FDFFF4;
+  --lemon:#F6F3C8;
+  --blush:#F5ABA4;
+  --custard:#EAD392;
+  --gold:#BAAB35;
+  --gold-dark:#8a7f28;
+  --dark:#2d2a14;
+  --mid:#6b6235;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  background:var(--ivory);
+  color:var(--dark);
+  font-family:"Instrument Serif",serif;
+}
+
+button,input,textarea{
+  font-family:inherit;
+}
